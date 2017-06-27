@@ -1,0 +1,36 @@
+$reset: 0;
+$labYellow: rgb(247, 182, 23);
+$labGray: rgb(43, 43, 43);
+$colorLetter: rgb(255, 255, 255);
+$grid: 100%;
+$font: 'Josefin Sans',
+sans-serif;
+$space-around: 20px 15px;
+$format-list: none;
+$max: 1200px;
+* {
+    font-family: $font;
+    margin: $reset;
+    padding: $reset;
+    width: $grid;
+    max-width: $max;
+}
+
+.contenedor {
+    margin: $space-around;
+}
+
+.titulo {
+    width: $grid;
+    background: $labYellow;
+    padding: $space-around;
+    color: $colorLetter;
+}
+
+.menu {
+    list-style: $format-list;
+    width: $grid/3;
+    border: 1px solid;
+}
+
+.instrucciones {}
