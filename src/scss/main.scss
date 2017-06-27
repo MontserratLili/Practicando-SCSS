@@ -8,6 +8,7 @@ sans-serif;
 $space-around: 20px 15px;
 $format-list: none;
 $max: 1200px;
+$box: left;
 * {
     font-family: $font;
     margin: $reset;
@@ -29,8 +30,24 @@ $max: 1200px;
 
 .menu {
     list-style: $format-list;
-    width: $grid/3;
+    width: $grid/6;
     border: 1px solid;
+    padding: $space-around;
+    float: $box;
 }
-
-.instrucciones {}
+.instrucciones {
+    width: $grid/2;
+    border: 1px solid;
+    padding: $space-around;
+    float: $box;
+}
+.deberas{
+    width: $grid/5;
+    border: 1px solid;
+    padding: $space-around;
+    float: $box;
+}
+.final{
+    width: $grid;
+    float: $box;
+}

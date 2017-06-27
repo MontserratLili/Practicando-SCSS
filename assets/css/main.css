@@ -16,7 +16,25 @@
 
 .menu {
   list-style: none;
-  width: 33.33333%;
-  border: 1px solid; }
+  width: 16.66667%;
+  border: 1px solid;
+  padding: 20px 15px;
+  float: left; }
+
+.instrucciones {
+  width: 50%;
+  border: 1px solid;
+  padding: 20px 15px;
+  float: left; }
+
+.deberas {
+  width: 20%;
+  border: 1px solid;
+  padding: 20px 15px;
+  float: left; }
+
+.final {
+  width: 100%;
+  float: left; }
 
 /*# sourceMappingURL=main.css.map */
